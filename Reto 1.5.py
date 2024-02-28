@@ -1,6 +1,6 @@
 #Escribir una función que reciba una lista de string y retorne unicamente aquellos 
-# elementos que tengan los mismos caracteres. e.g. entrada: 
-# ["amor", "roma", "perro"], salida ["amor", "roma"]
+#elementos que tengan los mismos caracteres. e.g. entrada: 
+#["amor", "roma", "perro"], salida ["amor", "roma"]
 
 def encuentra_anagramas(lista_palabras):
     diccionario_anagramas = {} #Se crea un diccionario vacío, la idea será almacenar palabras por claves dependiendo de sus letras

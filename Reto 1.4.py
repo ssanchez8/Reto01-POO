@@ -1,5 +1,5 @@
 #Escribir una función que reciba una lista de 
-# números enteros y retorne la mayor suma entre dos elementos consecutivos.
+#números enteros y retorne la mayor suma entre dos elementos consecutivos.
 
 print("Ingrese por favor una lista de números (digitar 0 para terminar): ") 
 

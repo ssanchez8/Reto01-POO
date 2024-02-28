@@ -1,6 +1,6 @@
 #Crear una función que realice operaciones 
-# básicas (suma, resta, multiplicación, división) entre dos números, según la elección del usuario, la forma de entrada 
-# de la función será los dos operandos y el caracter usado para la operación. entrada: (1,2,"+"), salida (3).
+#básicas (suma, resta, multiplicación, división) entre dos números, según la elección del usuario, la forma de entrada 
+#de la función será los dos operandos y el caracter usado para la operación. entrada: (1,2,"+"), salida (3).
 
 numero1 = float(input("Por favor ingresa el primer número a operar: "))
 operacion = input("Por favor selecciona la operación (+, -, *, /): ")

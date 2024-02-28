@@ -1,6 +1,6 @@
 #Escribir una función que reciba una lista de números y 
-# devuelva solo aquellos que son primos. La función debe 
-# recibir una lista de enteros y retornar solo aquellos que sean primos.
+#devuelva solo aquellos que son primos. La función debe 
+#recibir una lista de enteros y retornar solo aquellos que sean primos.
 
 
 def detecta_primos(num):
