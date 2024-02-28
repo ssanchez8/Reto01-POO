@@ -2,9 +2,7 @@
 #básicas (suma, resta, multiplicación, división) entre dos números, según la elección del usuario, la forma de entrada 
 #de la función será los dos operandos y el caracter usado para la operación. entrada: (1,2,"+"), salida (3).
 
-numero1 = float(input("Por favor ingresa el primer número a operar: "))
-operacion = input("Por favor selecciona la operación (+, -, *, /): ")
-numero2 = float(input("Por favor ingresa el segundo número a operar: ")) #Se piden los números y la operación
+
 
 
 def calculos(numero1, numero2, operacion):
@@ -21,7 +19,10 @@ def calculos(numero1, numero2, operacion):
             print("La división por cero no es posible")
     else: 
         print("La operación no es válida") #En caso de que el usuario meta otros valores, la operación será inválida
-        
+ 
+numero1 = float(input("Por favor ingresa el primer número a operar: "))
+operacion = input("Por favor selecciona la operación (+, -, *, /): ")
+numero2 = float(input("Por favor ingresa el segundo número a operar: ")) #Se piden los números y la operación       
     
 resultado = calculos(numero1, numero2, operacion) #Se llama a la función con los parámetros
 
