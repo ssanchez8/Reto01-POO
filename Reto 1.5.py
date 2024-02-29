@@ -23,5 +23,4 @@ def encuentra_anagramas(lista_palabras):
      
 
 lista_palabras = input("Ingrese las palabras separadas por espacios: ").split()
-print("Los anagramas de la lista ingresada son: ", encuentra_anagramas(lista_palabras))  # Output: List of anagrams
-
+print("Los anagramas de la lista ingresada son: ", encuentra_anagramas(lista_palabras)) 
